@@ -30,8 +30,8 @@ header{
 
 .contact{
     text-align: center;
-    width: 20%;
-    padding: 1%;
+    width: 30%;
+    padding: 2%;
     font-size: 1.5em;
     background-color: #C09846;
     border-radius: 10px;
@@ -99,21 +99,28 @@ footer img{
     width: 15%;
 }
 
-footer div{
+footer .email a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .made-by{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 80%;
 }
 
 @media only screen and (max-width: 600px) {
    
     .contact{
         font-size: 0.8em;
-        width: 50%;
+        width: 40%;
+        padding: 3%;
     }
 
     h1{
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-align: center;
     }
 
@@ -123,7 +130,7 @@ footer div{
 
     .informacoes{
         text-align: center;
-        width: 60%;
+        width: 80%;
         font-size: 0.8em;
     }
     
@@ -132,7 +139,19 @@ footer div{
         width: 15%;
     }
 
-    footer div{
+    footer .email{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+    }
+
+    footer .email a{
+        font-size: 0.5em;
+        text-align: center;
+    }
+
+    footer .made-by{
         display: flex;
         align-items: center;
         width: 60%;
